@@ -1,12 +1,16 @@
 # frontend
 
-## Project setup
+## Run The backend
 ```
-npm install
+cd cd backend
+npm i
+node app.js
 ```
 
-### Compiles and hot-reloads for development
+## Run The frontend for development
 ```
+cd cd frontend
+npm i
 npm run serve
 ```
 
