@@ -19,7 +19,7 @@ export default new Vuex.Store({
 		token: localStorage.getItem("USER"),
 		isLoggedIn: localStorage.getItem("USER") ? true : false,
 		user: localStorage.getItem("CUSER")
-			? jwt_decode(localStorage.getItem("SSCUSER"))
+			? jwt_decode(localStorage.getItem("USER"))
 			: {},
 		activePage: "images",
 		colors: [
