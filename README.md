@@ -1,2 +1,25 @@
-# vue-express-map-data
-This repo has a smiple Express API that sends mock JSON data to a Vue front-end to build a map of contractor regions
+# Vue Express Map JSON Data
+
+## Run The backend
+```
+cd backend
+npm i
+node app.js
+```
+
+## Run The frontend for development
+```
+cd frontend
+nvm use 12.14.1
+npm i
+npm run serve
+// the front-end needs to be updated in the future due to insecure packages
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
