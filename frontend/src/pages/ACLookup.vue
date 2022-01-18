@@ -1552,8 +1552,8 @@ export default {
   },
   computed: {
     byStateList() {
-      // If that's the intention, you can do a check on the variable called 'found'. If it is empty you can delete the entry from the copy.
-      // Make a copy so you don't ruin the original data
+      // You can do a check on the variable called 'found'. If it is empty you can delete the entry from the copy.
+      // Make a copy to not ruin the original data
       const copy = Object.assign(this.acList, {});
 
       copy.forEach((entry) => {
