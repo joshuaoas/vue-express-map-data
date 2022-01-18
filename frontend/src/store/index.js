@@ -18,7 +18,7 @@ export default new Vuex.Store({
 		tour: false,
 		token: localStorage.getItem("USER"),
 		isLoggedIn: localStorage.getItem("USER") ? true : false,
-		user: localStorage.getItem("CUSER")
+		user: localStorage.getItem("USER")
 			? jwt_decode(localStorage.getItem("USER"))
 			: {},
 		activePage: "images",
