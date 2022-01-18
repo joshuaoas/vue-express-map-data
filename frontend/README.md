@@ -10,8 +10,10 @@ node app.js
 ## Run The frontend for development
 ```
 cd frontend
+nvm use 12.14.1
 npm i
 npm run serve
+// the front-end needs to be updated in thee future due to insecure packages
 ```
 
 ### Compiles and minifies for production
