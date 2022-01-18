@@ -2,14 +2,14 @@
 
 ## Run The backend
 ```
-cd cd backend
+cd backend
 npm i
 node app.js
 ```
 
 ## Run The frontend for development
 ```
-cd cd frontend
+cd frontend
 npm i
 npm run serve
 ```
