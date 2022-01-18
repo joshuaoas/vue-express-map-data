@@ -1,12 +1,16 @@
-# frontend
+# Vue Express Map JSON Data
 
-## Project setup
+## Run The backend
 ```
-npm install
+cd backend
+npm i
+node app.js
 ```
 
-### Compiles and hot-reloads for development
+## Run The frontend for development
 ```
+cd frontend
+npm i
 npm run serve
 ```
 
