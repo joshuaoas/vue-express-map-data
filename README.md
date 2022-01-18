@@ -10,7 +10,7 @@ node app.js
 ## Run The frontend for development
 ```
 cd frontend
-nvm use 12.14.1
+nvm use 15.3.0
 npm i
 npm run serve
 // the front-end needs to be updated in the future due to insecure packages
