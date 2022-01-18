@@ -4,8 +4,6 @@ import store from "../store/";
 
 const ACList = () => import("@/pages/ACLookup");
 const NotFound = () => import("@/pages/404.vue");
-import * as Sentry from "@sentry/vue";
-
 
 Vue.use(Router);
 
